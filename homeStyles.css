@@ -1,0 +1,179 @@
+/*hashtag is id and . is class*/
+
+body {
+    background-color: #f3de1c;
+}
+
+.navBar {
+    overflow: hidden;
+    background-color: #f3de1c;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 0 5px 0;
+}
+
+.navBar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 19px 21px;
+    text-decoration: none;
+}
+
+.navBar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navBar a.active {
+    background-color: #f3de1c;
+    color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 100vh;
+    background-image: linear-gradient(rgba( 0,0,0,0.5), rgba( 0,0,0,0.5)), url(beach.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:#fff;
+    margin-bottom: 70px;
+    font-size: 45px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.search-field {
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+}
+
+.airport {
+    width:250px;
+}
+
+.location {
+    width: 250px;
+}
+
+.search-btn {
+    height: 50px;
+    width: 150px;
+    background: #f3de1c;
+    border: none;
+    color: #000;
+    border-radius: 25px;
+}
+
+.search-btn:hover {
+    background: #ffc107;
+    cursor: pointer;
+}
+
+.form-box {
+    background: rgba( 0,0,0,0.5);
+    padding: 30px;
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/*#f3de1c*/
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 100px 0;
+}
+
+.destination {
+    position: relative;
+    top: 50%;
+    left: 41%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 30px;
+    max-width: 250px;
+    padding: 20px;
+    background-color: #345FBE;
+    font-family: sans-serif;
+    color: #f1f1f1;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.destination:hover {
+    background: #eee;
+    color: black;
+    transition: .3s ease;
+}
+
+
+
+.plan {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan:after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.caption {
+    font-family: sans-serif;
+    color:white
+}
+
+.option {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+    float: left;
+    padding: 5px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb( 0,0,0);
+    background: rgba( 243, 222, 28,0.5);
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.option:hover .overlay {
+    opacity: 1;
+}
