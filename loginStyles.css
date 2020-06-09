@@ -1,3 +1,7 @@
+body {
+    background-color: rgba( 52,95,190,0.3);
+}
+
 .navBar {
     overflow: hidden;
     background-color: #f3de1c;
@@ -15,12 +19,13 @@
 
 .navBar a:hover {
     background-color: #345FBE;
-    color: black;
+    font-family: sans-serif;
+    cursor: pointer;
 }
 
-.navBar a.active {
-    background-color: #f3de1c;
-    color: black;
+.navBar a:hover {
+    color: white;
+    transition: .3s ease;
 }
 
 body html {
@@ -80,3 +85,83 @@ input[type=text]:focus, input[type=password]:focus {
 .btn:hover {
     opacity: 1;
 }
+
+/*footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #f3de1c;
+    padding: 10px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 68px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-linkedin {
+    background: #345FBE;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #345FBE;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #345FBE;
+    color: white;
+  }
+
+  /*footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #f3de1c;
+    padding: 10px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 68px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-linkedin {
+    background: #345FBE;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #345FBE;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #345FBE;
+    color: white;
+  }
+
+  

@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
-    background: #f3de1c;
+    padding-bottom: 80px;
+    background-color: rgba( 52,95,190,0.3);
 }
 
 nav {
@@ -29,7 +30,7 @@ nav a {
 	display: block;
 	width: 30px;
 	height: 5px;
-	background: black;
+	background: darkslategray;
 	position: absolute;}
 
 .hamburger:before {
@@ -44,7 +45,7 @@ nav a {
     width: 30px;
     height: 5px;
     display: block;
-    background: black;
+    background: darkslategrey;
     position: absolute;
     top: 7.5px;
 }
@@ -67,11 +68,12 @@ a.cross {
     font-size: 1.5rem;
 }
 
-h1 {
+.title {
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    padding: 100px 0 50px 0;
+    text-align: center;
+    padding: 75px;
+    background-color:#f3de1c;
+    color: darkslategray;
 }
 
 @media only screen and (min-width: 992px) {
@@ -127,7 +129,7 @@ h1 {
   }
   
   .text {
-    color: white;
+    color: darkslategray;
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -137,6 +139,7 @@ h1 {
     transform: translate(-50%, -50%);
     text-align: center;
     font-family: sans-serif;
+    font-weight: bold;
   }
 
 @media only screen and (max-width: 800px) {
@@ -152,3 +155,47 @@ h1 {
         max-width:100%;
     }
 }
+
+/*footer- couldn't firgure out how to keep it to the bottom with bottom: 0; */
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #f3de1c;
+    overflow: hidden;
+    position: absolute;
+    top: 2250px;
+    width: 100%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-linkedin {
+    background: #345FBE;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #345FBE;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #345FBE;
+    color: white;
+  }
+
+  
